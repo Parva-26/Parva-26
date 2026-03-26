@@ -148,7 +148,7 @@ Built a 3-layer **NLP-to-feature bridge** mapping free-text inputs → ML featur
 | Course | Provider | Status |
 |--------|----------|--------|
 | Machine Learning Specialization | Andrew Ng — DeepLearning.AI + Stanford | ✅ Completed |
-| Deep Learning Specialization (5 courses) | Andrew Ng — DeepLearning.AI | ✅ Completed |
+| Deep Learning Specialization | Andrew Ng — DeepLearning.AI | ✅ Completed |
 | NLP Specialization | Andrew Ng — DeepLearning.AI | 🔄 In Progress |
 | Intro to Large Language Models | NPTEL — IIT Delhi & IIT Bombay | 🔄 In Progress |
 | Neural Networks for CV and NLP | NPTEL — IIT Guwahati | 🔄 In Progress |
