@@ -35,7 +35,7 @@
 
 I'm a 2nd-year **B.Tech IT** student at **DJSCE, Mumbai** obsessed with the mechanics of deep learning. Not the API-call kind — the *rewrite the transformer from scratch, read the original paper, understand every gradient* kind.
 
-My goal is to contribute research at the intersection of **NLP and Computer Vision**, with a long-term target of **Masters in AI/ML **.
+My goal is to contribute research at the intersection of **NLP and Computer Vision**, with a long-term target of **Masters in AI/ML**.
 
 ```python
 parva = {
