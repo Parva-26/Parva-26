@@ -32,7 +32,8 @@ parva = {
     "currently"  : "Sem 4 · B.Tech IT · DJSCE Mumbai",
     "focus"      : ["LLMs", "Vision Transformers", "NLP", "CV"],
     "building"   : "research profile from ground up",
-    "next"       : "first publication + international research internship"
+    "next"       : "first publication + international research internship",
+    "motto"      : "from first principles, always"
 }
 ```
 
@@ -93,7 +94,7 @@ Built a **∼30M parameter GPT** in raw PyTorch — 8-layer causal multi-head se
 
 **Why it matters:** Reproducing a foundational architecture from scratch — without abstractions — is how you actually understand it.
 
-[![Repo](https://img.shields.io/badge/GitHub-GPT--from--Scratch-00d4ff?style=flat-square&logo=github)](https://github.com/Parva-26)
+[![Repo](https://img.shields.io/badge/GitHub-GPT--from--Scratch-00d4ff?style=flat-square&logo=github)](https://github.com/Parva-26/gpt-from-scratch)
 
 ---
 
@@ -113,7 +114,7 @@ Fine-tuned **Swin-Small (50M params)** with an FPN decoder for pixel-level crowd
 
 **Loss:** composite MSE (density map) + 0.1×L1 (count). Ground-truth maps via fixed-sigma Gaussian (σ=15) on MATLAB point annotations. Identified dilated convolutions as primary gap vs CSRNet — active area of investigation.
 
-[![Repo](https://img.shields.io/badge/GitHub-Swin--Crowd--Count-00d4ff?style=flat-square&logo=github)](https://github.com/Parva-26)
+[![Repo](https://img.shields.io/badge/GitHub-Swin--Crowd--Count-00d4ff?style=flat-square&logo=github)](https://github.com/Parva-26/swin-crowd-counting)
 
 ---
 
@@ -129,7 +130,7 @@ Designed and deployed an end-to-end ML pipeline on 3,000 samples to predict opti
 
 Built a 3-layer **NLP-to-feature bridge** mapping free-text inputs → ML feature vectors via role priors, vocabulary sentiment, and identity hashing. Custom `TransformerMixin` deriving 5 engineered features (recency decay, engagement momentum, peak-hour flag). HPO via RandomizedSearchCV across GradientBoosting, RandomForest, MLP. Deployed: FastAPI (Render) + React/TypeScript (Vercel).
 
-[![Repo](https://img.shields.io/badge/GitHub-NeuroStrat-00d4ff?style=flat-square&logo=github)](https://github.com/Parva-26)
+[![Repo](https://img.shields.io/badge/GitHub-NeuroStrat-00d4ff?style=flat-square&logo=github)](https://github.com/Parva-26/neurostrat)
 
 ---
 
