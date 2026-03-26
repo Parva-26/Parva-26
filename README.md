@@ -162,26 +162,13 @@ Built a 3-layer **NLP-to-feature bridge** mapping free-text inputs → ML featur
 ```
 ┌──────────────────────────────────────────────────────────────────┐
 │                                                                  │
-│   LANGUAGE MODELS        →  Pretraining, SFT, RLHF, scaling     │
+│   LANGUAGE MODELS        →  Pretraining, SFT, RLHF, scaling      │
 │   VISION TRANSFORMERS    →  ViT, Swin, dense prediction tasks    │
 │   MULTIMODAL AI          →  Vision-language alignment            │
 │   EFFICIENT INFERENCE    →  Quantization, distillation, pruning  │
 │                                                                  │
 └──────────────────────────────────────────────────────────────────┘
 ```
-
----
-
-## ◈ GITHUB STATS
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Parva-26&show_icons=true&bg_color=0f0f0f&title_color=00d4ff&text_color=a0a0c0&icon_color=00d4ff&border_color=1a1a2e&border_radius=4&hide_border=false&count_private=true" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Parva-26&layout=compact&bg_color=0f0f0f&title_color=00d4ff&text_color=a0a0c0&border_color=1a1a2e&border_radius=4&hide_border=false" width="48%" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=Parva-26&theme=transparent&hide_border=false&border=1a1a2e&ring=00d4ff&fire=00d4ff&currStreakLabel=00d4ff&sideLabels=a0a0c0&dates=a0a0c0&background=0f0f0f&stroke=1a1a2e" width="60%" />
-</p>
 
 ---
 
