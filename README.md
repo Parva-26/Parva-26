@@ -144,6 +144,7 @@ Built a 3-layer **NLP-to-feature bridge** mapping free-text inputs → ML featur
 | Intro to Large Language Models | NPTEL — IIT Delhi & IIT Bombay | Completed |
 | Neural Networks for CV and NLP | NPTEL — IIT Guwahati | Completed |
 | CS231N | Stanford Online (Youtube) | Completed |
+| CS153 Frontier Systems | Stanford Online (Youtube) | In Progress |
 | HuggingFace CV Course | HuggingFace | In Progress |
 
 ---
