@@ -30,7 +30,7 @@ My goal is to contribute research at the intersection of **NLP and Computer Visi
 ```python
 parva = {
     "currently"  : "Sem 4 · B.Tech IT · DJSCE Mumbai",
-    "focus"      : ["LLMs", "Vision Transformers", "NLP", "CV"],
+    "focus"      : ["LLMs", "Vision Transformers", "Mamba", "NLP", "CV"],
     "building"   : "research profile from ground up",
     "next"       : "first publication + international research internship",
     "motto"      : "from first principles, always"
@@ -138,13 +138,13 @@ Built a 3-layer **NLP-to-feature bridge** mapping free-text inputs → ML featur
 
 | Course | Provider | Status |
 |--------|----------|--------|
-| Machine Learning Specialization | Andrew Ng — DeepLearning.AI + Stanford | ✅ Completed |
-| Deep Learning Specialization | Andrew Ng — DeepLearning.AI | ✅ Completed |
-| NLP Specialization | Andrew Ng — DeepLearning.AI | 🔄 In Progress |
-| Intro to Large Language Models | NPTEL — IIT Delhi & IIT Bombay | 🔄 In Progress |
-| Neural Networks for CV and NLP | NPTEL — IIT Guwahati | 🔄 In Progress |
-
-**Currently studying:** Justin Johnson's UMich CV Course (YouTube) · HuggingFace CV Course
+| Machine Learning Specialization | Andrew Ng — DeepLearning.AI + Stanford | Completed |
+| Deep Learning Specialization | Andrew Ng — DeepLearning.AI | Completed |
+| NLP Specialization | Andrew Ng — DeepLearning.AI | Completed |
+| Intro to Large Language Models | NPTEL — IIT Delhi & IIT Bombay | Completed |
+| Neural Networks for CV and NLP | NPTEL — IIT Guwahati | Completed |
+| CS231N | Stanford Online (Youtube) | Completed |
+| HuggingFace CV Course | HuggingFace | In Progress |
 
 ---
 
