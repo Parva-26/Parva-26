@@ -94,11 +94,11 @@ parva = {
 ```
 ┌──────────────────────────────────────────────────────────────────┐
 │                                                                  │
-│   LANGUAGE MODELS        →  Pretraining, SFT, RLHF, scaling      │
+│   MECHANISTIC INTERP     →  TransformerLens, SAELens             │
+│   LANGUAGE MODELS        →  Pretraining, SFT, RLHF, scaling      │                               
 │   VISION TRANSFORMERS    →  ViT, Swin, dense prediction tasks    │
 │   MULTIMODAL AI          →  Vision-language alignment            │
-│   EFFICIENT INFERENCE    →  Quantization, distillation, pruning  │
-│   MECHANISTIC INTERP     →  TransformerLens, SAELens                                                        │
+│   EFFICIENT INFERENCE    →  Quantization, distillation, pruning  │                                                                     
 │                                                                  │
 └──────────────────────────────────────────────────────────────────┘
 ```
