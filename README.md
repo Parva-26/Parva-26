@@ -74,66 +74,6 @@ parva = {
 
 ---
 
-## ◈ RESEARCH PROJECTS
-
----
-
-### `[01]` GPT-2 FROM SCRATCH
-> *Decoder-only transformer — no HuggingFace abstractions, no shortcuts.*
-
-Built a **∼30M parameter GPT** in raw PyTorch — 8-layer causal multi-head self-attention, residual FFN blocks, LayerNorm — every component implemented independently from the original Attention is All You Need paper.
-
-| Metric | Value |
-|--------|-------|
-| Parameters | ~30M |
-| Training corpus | ~800M tokens (Wikipedia + OpenWebText + TinyStories) |
-| Training steps | ~53,000 |
-| Validation loss | 4.63 (perplexity ~103) |
-| Tokenizer | BPE via tiktoken (50,257 vocab) |
-| Optimizations | AMP mixed precision + gradient accumulation on Colab T4 |
-
-**Why it matters:** Reproducing a foundational architecture from scratch — without abstractions — is how you actually understand it.
-
-[![Repo](https://img.shields.io/badge/GitHub-GPT--from--Scratch-00d4ff?style=flat-square&logo=github)](https://github.com/Parva-26/gpt-from-scratch)
-
----
-
-### `[02]` SWIN TRANSFORMER — CROWD COUNTING
-> *Fine-tuning vision transformers for dense prediction tasks.*
-
-Fine-tuned **Swin-Small (50M params)** with an FPN decoder for pixel-level crowd density map regression on **ShanghaiTech Part B** — a standard CV benchmark.
-
-| Metric | Value |
-|--------|-------|
-| Architecture | Swin-Small + FPN decoder |
-| Dataset | ShanghaiTech Part B |
-| Training | 300 epochs, AdamW + cosine annealing |
-| MAE | **41.45** |
-| RMSE | ~70 |
-| vs. Baseline | Outperforms VGG baseline without crowd-specific priors |
-
-**Loss:** composite MSE (density map) + 0.1×L1 (count). Ground-truth maps via fixed-sigma Gaussian (σ=15) on MATLAB point annotations. Identified dilated convolutions as primary gap vs CSRNet — active area of investigation.
-
-[![Repo](https://img.shields.io/badge/GitHub-Swin--Crowd--Count-00d4ff?style=flat-square&logo=github)](https://github.com/Parva-26/swin-crowd-counting)
-
----
-
-### `[03]` NEUROSTRAT — AI OUTREACH DECISION ENGINE
-> *Multi-output ML pipeline + NLP-to-feature bridge.*
-
-Designed and deployed an end-to-end ML pipeline on 3,000 samples to predict optimal outreach strategy.
-
-| Output | Task | F1 Score |
-|--------|------|----------|
-| Channel prediction | 5-class | **93%** |
-| Tone prediction | 5-class | **96%** |
-
-Built a 3-layer **NLP-to-feature bridge** mapping free-text inputs → ML feature vectors via role priors, vocabulary sentiment, and identity hashing. Custom `TransformerMixin` deriving 5 engineered features (recency decay, engagement momentum, peak-hour flag). HPO via RandomizedSearchCV across GradientBoosting, RandomForest, MLP. Deployed: FastAPI (Render) + React/TypeScript (Vercel).
-
-[![Repo](https://img.shields.io/badge/GitHub-NeuroStrat-00d4ff?style=flat-square&logo=github)](https://github.com/Parva-26/neurostrat)
-
----
-
 ## ◈ CERTIFICATIONS & ACTIVE LEARNING
 
 | Course | Provider | Status |
@@ -158,6 +98,7 @@ Built a 3-layer **NLP-to-feature bridge** mapping free-text inputs → ML featur
 │   VISION TRANSFORMERS    →  ViT, Swin, dense prediction tasks    │
 │   MULTIMODAL AI          →  Vision-language alignment            │
 │   EFFICIENT INFERENCE    →  Quantization, distillation, pruning  │
+│   MECHANISTIC INTERP     →  TransformerLens, SAELens                                                        │
 │                                                                  │
 └──────────────────────────────────────────────────────────────────┘
 ```
