@@ -1,134 +1,98 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0f0f,50:1a1a2e,100:16213e&height=200&section=header&text=PARVA%20MEHTA&fontSize=60&fontColor=00d4ff&fontAlignY=38&desc=AI%20%2F%20ML%20Researcher%20in%20the%20Making&descSize=18&descAlignY=60&descColor=a0a0c0&animation=fadeIn" width="100%"/>
-</p>
+<a href="https://parvamehta.vercel.app/">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://parvamehta.vercel.app/assets/github/banner-dark.svg">
+    <img alt="Parva Mehta, student researcher in machine learning, DJSCE Mumbai" src="https://parvamehta.vercel.app/assets/github/banner-light.svg" width="100%">
+  </picture>
+</a>
 
 <p align="center">
-  <a href="mailto:parvamehta26@gmail.com">
-    <img src="https://img.shields.io/badge/EMAIL-parvamehta26@gmail.com-00d4ff?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0f0f0f" />
-  </a>
-  &nbsp;
-  <a href="https://linkedin.com/in/parva-mehta">
-    <img src="https://img.shields.io/badge/LINKEDIN-parva--mehta-00d4ff?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0f0f0f" />
-  </a>
-  &nbsp;
-  <a href="https://github.com/Parva-26">
-    <img src="https://img.shields.io/badge/GITHUB-Parva--26-00d4ff?style=for-the-badge&logo=github&logoColor=white&labelColor=0f0f0f" />
-  </a>
+  <a href="https://parvamehta.vercel.app/"><img alt="Website" src="https://img.shields.io/badge/Website-parvamehta.vercel.app-2f5b86?style=flat-square&labelColor=1a1a19"></a>
+  <a href="mailto:parvamehta26@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-parvamehta26%40gmail.com-2f5b86?style=flat-square&logo=gmail&logoColor=white&labelColor=1a1a19"></a>
+  <a href="https://www.linkedin.com/in/parva-mehta-6592a32a4"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Parva%20Mehta-2f5b86?style=flat-square&logo=linkedin&logoColor=white&labelColor=1a1a19"></a>
+  <a href="https://parvamehta.vercel.app/assets/Parva_Mehta_Resume.pdf"><img alt="Resume" src="https://img.shields.io/badge/Resume-PDF-2f5b86?style=flat-square&labelColor=1a1a19"></a>
 </p>
 
+### Hi, I'm Parva
 
----
+I'm a third-year Information Technology student at DJSCE, Mumbai, and most of my time outside class goes into machine learning research. I like questions where you can run an experiment and find out whether your explanation was right.
 
-## ◈ ABOUT
+So far that has taken me into how transformers are built, how vision models keep track of position, whether video world models actually use the futures they imagine, and how to find cause and effect in time-series data. I work on these with research groups in several countries.
 
-> *"I want to understand intelligence — so I'm building it from scratch."*
+### Right now
 
-I'm a 2nd-year **B.Tech IT** student at **DJSCE, Mumbai** obsessed with the mechanics of deep learning. Not the API-call kind — the *rewrite the transformer from scratch, read the original paper, understand every gradient* kind.
+- **Research Collaborator**, Mechanistic Interpretability Research Group, In Simplicity Technologies: causal experiments on nonlinear query projections in attention, across GPT-2 Small, GPT-2 Medium and GPT-3-Large.
+- **Open-source collaborator**, [CausationEntropy](https://github.com/Center-For-Complex-Systems-Science/causationentropy) at Clarkson University's C3S2: information-theoretic estimators for causal network discovery from multivariate time series.
+- **Founding research member**, Neural Representation Dynamics Lab: positional encodings in Vision Transformers, and world action models.
+- **Research contributor**, StationHouse: ConspiracyBench, and [LLM Consciousness Self-Attribution](https://github.com/Station-House/LLMConsciousnessSelfAttributionRepo).
+- **Research lead**, DJ InIT.ai, the machine-learning research club at DJSCE.
 
-My goal is to contribute research at the intersection of **LLMs, Mech Interp and Computer Vision**, with a long-term target of **Masters in AI/ML**.
+### Papers
 
-```python
-parva = {
-    "currently"  : "Sem 4 · B.Tech IT · DJSCE Mumbai",
-    "focus"      : ["LLMs", "Vision Transformers", "Mamba", "NLP", "CV"],
-    "building"   : "research profile from ground up",
-    "next"       : "first publication + international research internship",
-    "motto"      : "from first principles, always"
-}
-```
+| Status | Paper | Venue |
+| :-- | :-- | :-- |
+| Accepted | [**Beyond Linearity in Attention Projections**](https://openreview.net/forum?id=M8z9uMfxk5) <br><sub>co-second author</sub> | NeurIPS 2026 Workshop <br><sub>SLMs for Agentic Systems</sub> |
+| Under review | **Anchored but Not Protected: When Refusal Erodes During Fine-Tuning, and Whether Holding One Direction Stops It** <br><sub>co-first author</sub> | ICLR 2027 |
+| Under review | **How Vision Transformers Represent Position: A Mechanistic Comparison of Absolute and Rotary Positional Encodings** | ICLR 2027 |
 
----
+Nine more papers and projects are in progress, targeting ICML, CVPR, ICLR workshops and JMLR. [See them on my website &rarr;](https://parvamehta.vercel.app/#wip)
 
-## ◈ TECHNICAL ARSENAL
+### Selected projects
 
-### 🔬 ML / DL — PRIMARY DOMAIN
+| Project | What it is | Result |
+| :-- | :-- | :-- |
+| [**IOI Circuit Analysis**](https://github.com/Parva-26/ioi-circuit-analysis) | Replication of the Indirect Object Identification circuit in GPT-2 Small with path patching, plus a stability test under distractor tokens | &rho; = 0.781 head-ranking correlation across templates; 98.2% of logit difference retained |
+| [**CBAM-ResNet50**](https://github.com/Parva-26/cbam-resnet) | Channel and spatial attention (CBAM) inside a CIFAR-adapted ResNet-50 | 94.65% validation accuracy vs. 88.49% baseline, with +0.77% parameters |
+| [**GPT from Scratch**](https://github.com/Parva-26/gpt-from-scratch) | A ~30M-parameter decoder-only GPT, trained on ~800M tokens with mixed precision on free-tier T4 GPUs | Validation loss 4.63 (perplexity ~103) |
+
+<details>
+<summary><b>More on my GitHub</b></summary>
+<br>
+
+- [swin-crowd-counting](https://github.com/Parva-26/swin-crowd-counting): Swin Transformer + FPN decoder for crowd density estimation on ShanghaiTech (MAE 41.45 on Part B)
+- [convnext-crowd-counting](https://github.com/Parva-26/convnext-crowd-counting): ConvNeXt-based crowd density estimation on ShanghaiTech
+- [ML-Based_Volatility_Prediction](https://github.com/Parva-26/ML-Based_Volatility_Prediction): predicting short-term high-volatility periods in large technology stocks
+- [AlphaAgent](https://github.com/Parva-26/AlphaAgent): a multi-agent investment research terminal, with a ReAct agent, a bull/bear debate and an arbiter (LangGraph + Groq)
+
+</details>
+
+### Toolbox
+
 <p>
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
-  <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" />
-  <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" />
-  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" />
-  <img src="https://img.shields.io/badge/TIMM-00d4ff?style=for-the-badge&logoColor=white" />
+  <img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-2f5b86?style=flat-square&logo=pytorch&logoColor=white">
+  <img alt="TensorFlow" src="https://img.shields.io/badge/TensorFlow-2f5b86?style=flat-square&logo=tensorflow&logoColor=white">
+  <img alt="Hugging Face" src="https://img.shields.io/badge/Hugging%20Face-2f5b86?style=flat-square&logo=huggingface&logoColor=white">
+  <img alt="TransformerLens" src="https://img.shields.io/badge/TransformerLens-2f5b86?style=flat-square">
+  <img alt="NNsight" src="https://img.shields.io/badge/NNsight-2f5b86?style=flat-square">
+  <img alt="SAELens" src="https://img.shields.io/badge/SAELens-2f5b86?style=flat-square">
+  <img alt="NumPy" src="https://img.shields.io/badge/NumPy-2f5b86?style=flat-square&logo=numpy&logoColor=white">
+  <img alt="SciPy" src="https://img.shields.io/badge/SciPy-2f5b86?style=flat-square&logo=scipy&logoColor=white">
+  <img alt="pandas" src="https://img.shields.io/badge/pandas-2f5b86?style=flat-square&logo=pandas&logoColor=white">
+  <img alt="scikit-learn" src="https://img.shields.io/badge/scikit--learn-2f5b86?style=flat-square&logo=scikitlearn&logoColor=white">
+  <br>
+  <img alt="Python" src="https://img.shields.io/badge/Python-1a1a19?style=flat-square&logo=python&logoColor=white">
+  <img alt="C++" src="https://img.shields.io/badge/C++-1a1a19?style=flat-square&logo=cplusplus&logoColor=white">
+  <img alt="C" src="https://img.shields.io/badge/C-1a1a19?style=flat-square&logo=c&logoColor=white">
+  <img alt="Git" src="https://img.shields.io/badge/Git-1a1a19?style=flat-square&logo=git&logoColor=white">
+  <img alt="Jupyter" src="https://img.shields.io/badge/Jupyter-1a1a19?style=flat-square&logo=jupyter&logoColor=white">
 </p>
 
-### 🧮 LANGUAGES
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
-  <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black" />
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
-</p>
+<details>
+<summary><b>Coursework</b></summary>
+<br>
 
-### 📊 DATA & TOOLS
-<p>
-  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
-  <img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Statsmodels-3776AB?style=for-the-badge&logoColor=white" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" />
-</p>
+| Course | Provider |
+| :-- | :-- |
+| Machine Learning Specialization | DeepLearning.AI &amp; Stanford (Andrew Ng) |
+| Deep Learning Specialization | DeepLearning.AI (Andrew Ng) |
+| Natural Language Processing Specialization | DeepLearning.AI |
+| Introduction to Large Language Models | NPTEL, IIT Delhi &amp; IIT Bombay |
+| Neural Networks for Computer Vision and NLP | NPTEL, IIT Guwahati |
+| CS231n: Deep Learning for Computer Vision | Stanford (lectures online) |
+
+</details>
 
 ---
-
-## ◈ CERTIFICATIONS & ACTIVE LEARNING
-
-| Course | Provider | Status |
-|--------|----------|--------|
-| Machine Learning Specialization | Andrew Ng — DeepLearning.AI + Stanford | Completed |
-| Deep Learning Specialization | Andrew Ng — DeepLearning.AI | Completed |
-| NLP Specialization | Andrew Ng — DeepLearning.AI | Completed |
-| Intro to Large Language Models | NPTEL — IIT Delhi & IIT Bombay | Completed |
-| Neural Networks for CV and NLP | NPTEL — IIT Guwahati | Completed |
-| CS231N | Stanford Online (Youtube) | Completed |
-| CS153 Frontier Systems | Stanford Online (Youtube) | In Progress |
-| HuggingFace CV Course | HuggingFace | In Progress |
-
----
-
-## ◈ RESEARCH INTERESTS
-
-```
-┌──────────────────────────────────────────────────────────────────┐
-│                                                                  │
-│   MECHANISTIC INTERP     →  TransformerLens, SAELens             │
-│   LANGUAGE MODELS        →  Pretraining, SFT, RLHF, scaling      │                               
-│   VISION TRANSFORMERS    →  ViT, Swin, dense prediction tasks    │
-│   MULTIMODAL AI          →  Vision-language alignment            │
-│   EFFICIENT INFERENCE    →  Quantization, distillation, pruning  │                                                                     
-│                                                                  │
-└──────────────────────────────────────────────────────────────────┘
-```
-
----
-
-## ◈ ACTIVITY
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Parva-26&bg_color=0f0f0f&color=a0a0c0&line=00d4ff&point=ffffff&area=true&hide_border=false&border_color=1a1a2e" width="100%" />
-</p>
-
----
-
-## ◈ CONNECT
-
-<p align="center">
-  <a href="mailto:parvamehta26@gmail.com">
-    <img src="https://img.shields.io/badge/Email-0f0f0f?style=for-the-badge&logo=gmail&logoColor=00d4ff"/>
-  </a>
-  &nbsp;
-  <a href="https://linkedin.com/in/parva-mehta">
-    <img src="https://img.shields.io/badge/LinkedIn-0f0f0f?style=for-the-badge&logo=linkedin&logoColor=00d4ff"/>
-  </a>
-  &nbsp;
-  <a href="https://github.com/Parva-26">
-    <img src="https://img.shields.io/badge/GitHub-0f0f0f?style=for-the-badge&logo=github&logoColor=00d4ff"/>
-  </a>
-</p>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:16213e,50:1a1a2e,100:0f0f0f&height=100&section=footer" width="100%"/>
+  <sub>Have a research question, a collaboration or a role in mind? I'd be happy to talk: <a href="mailto:parvamehta26@gmail.com">parvamehta26@gmail.com</a></sub>
 </p>
